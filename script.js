@@ -82,7 +82,7 @@ function login(){
 
     //E-mail and Password of the website
     let website_email="bazalsarfraz7863@gmail.com";
-    let website_password="12345";
+    let website_password="bazaluj999";
 
     if(Email==website_email && Password==website_password){
         window.location.href = 'links.html';
