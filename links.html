@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="link.png" type="image/x-icon">
+    <title>Links</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        }
+        
+        body{
+            background: linear-gradient(to right, #98a85e, #5a3886);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .linkbox{
+            background-color: #fff;
+            border-radius: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+            background: linear-gradient(to right, #5c6bc0, #512da8);
+            position: relative;
+            overflow: hidden;
+            width: 768px;
+            max-width: 100%;
+            min-height: 480px;
+        }
+
+        h1{
+            text-align: center;
+            color: #ffee00;
+            background-color: blueviolet;
+            padding: 20px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* align-items: center; */
+            height: 100%;
+        }
+
+        li{
+            margin: 20px;
+            text-align: center;
+            width: 250px;
+            height: 150px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+            background-color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
+
+        li:hover{
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+        }
+
+        a{
+            display: block;
+            color: #2933bd;
+            text-decoration: none;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: 500;
+            transition: all 0.3s ease-in-out;
+        }
+
+        a:hover{
+            color: #4dda65;
+        }
+
+        i{
+            font-size: 30px;
+            margin-right: 10px;
+        }
+
+        h2{
+            color: blueviolet;
+            background-color: #ffe600;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            border-radius: 20px;
+        }
+
+        .img{
+            border-radius: 50%;
+            height: 20%;
+            width: 14%;
+            margin-left: 325px;
+            margin-top: 15px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="linkbox">
+        <h1>Click on the links below to visit the pages</h1>
+        <h2>You can fetch the data that you have entered while sign-in.</h2>
+        <img src="bazal.png" class="img" alt="">
+        <ul>
+            <li style="margin-bottom: 135px;"><a href="https://script.google.com/macros/s/AKfycbxi_I-XPfONe2AelV2RnUwoFppNUCiERCYdcyY7SeyNSTyFzMTlzxjKVENA5sO_soA/exec" target="_blank"><img src="https://img.icons8.com/color/48/000000/google-forms.png" alt="app script"></a>Fetch Data</a></li>
+            <li style="margin-bottom: 135px;"><a href="https://www.linkedin.com/in/bazal-sarfraz?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="padding-top: 55px;"><i class="fa-brands fa-linkedin"></i> linkedin</a></li>
+        </ul>
+    </div>
+ 
+</body>
+</html>
